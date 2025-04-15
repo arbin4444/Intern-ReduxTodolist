@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.todo-main-div{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+.input-value{
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+}
+.add-btn{
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 0 0 10px;
+}
+
+.delete-btn{
+  border-radius: 5px;
+  margin: 0 0 0 15px;
+}
+
+.edit-btn{
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+}
+.update-btn{
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+}
+.cancel-btn{
+  border-radius: 5px;
+  margin: 0 0 0 10px;
 }
